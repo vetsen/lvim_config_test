@@ -1,3 +1,10 @@
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.list = false
+
+vim.opt.relativenumber = true
+
+lvim.keys.normal_mode[";"] = ":"
 
 lvim.plugins = {
   "tzachar/cmp-tabnine",
